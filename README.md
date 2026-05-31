@@ -23,9 +23,9 @@
    - Folder: `/ (root)`
 3. 保存后等待部署完成
 4. 访问地址：
-   - `https://<你的用户名>.github.io/BigWaterMelon_html/`
+   - `https://<你的用户名>.github.io/<你的仓库名>/`
 
-> 若你直接访问 `https://<你的用户名>.github.io/BigWaterMelon_html/MakingBigWatermelon.html` 也可以运行。
+> 若你直接访问 `https://<你的用户名>.github.io/<你的仓库名>/MakingBigWatermelon.html` 也可以运行。
 
 ## 方式二：Vercel（推荐）
 
