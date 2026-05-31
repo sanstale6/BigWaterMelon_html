@@ -6,11 +6,9 @@
   <title>Big Watermelon</title>
 </head>
 <body>
-  <p>正在跳转到游戏页面…</p>
+  <p role="status" aria-live="polite">正在跳转到游戏页面…</p>
   <script>
-    setTimeout(function () {
-      window.location.replace('./MakingBigWatermelon.html');
-    }, 150);
+    window.location.replace('./MakingBigWatermelon.html');
   </script>
   <p><a href="./MakingBigWatermelon.html">如果没有自动跳转，请点击这里。</a></p>
 </body>
