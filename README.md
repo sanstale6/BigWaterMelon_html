@@ -36,7 +36,7 @@
    - Output Directory: `.`
 4. 点击 Deploy
 
-仓库中的 `vercel.json` 已配置关键响应头：
+本仓库已包含 `vercel.json`（无需额外创建），并已配置关键响应头：
 
 - `Cross-Origin-Embedder-Policy: require-corp`
 - `Cross-Origin-Opener-Policy: same-origin`
