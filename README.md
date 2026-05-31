@@ -19,7 +19,8 @@
 1. 打开仓库页面：`Settings` → `Pages`
 2. 在 `Build and deployment` 中选择：
    - Source: `Deploy from a branch`
-   - Branch: `main` / `root`
+   - Branch: `main`
+   - Folder: `/ (root)`
 3. 保存后等待部署完成
 4. 访问地址：
    - `https://<你的用户名>.github.io/BigWaterMelon_html/`
@@ -32,7 +33,7 @@
 2. Framework Preset 选择 `Other`（或保持静态站点默认）
 3. 保持无构建步骤：
    - Build Command: 留空
-   - Output Directory: 留空（仓库根目录静态托管）
+   - Output Directory: `.`
 4. 点击 Deploy
 
 仓库中的 `vercel.json` 已配置关键响应头：
